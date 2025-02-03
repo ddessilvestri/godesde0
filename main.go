@@ -51,4 +51,5 @@ func main() {
 
 	}
 	iterations.Iterar()
+	excercises.Excercise2()
 }
