@@ -5,7 +5,7 @@ import (
 	"runtime"
 
 	"github.com/ddessilvestri/godesde0/excercises"
-	"github.com/ddessilvestri/godesde0/keyboards"
+	"github.com/ddessilvestri/godesde0/iterations"
 	"github.com/ddessilvestri/godesde0/variables"
 )
 
@@ -39,6 +39,16 @@ func main() {
 	fmt.Println("exInt", exString)
 	fmt.Println("err", err)
 
-	keyboards.InputNumbers()
+	// keyboards.InputNumbers()
 
+	for {
+		fmt.Println("about to break")
+		break
+	}
+
+	for i := 0; i < 2; i++ {
+		fmt.Println("about to break in:", i)
+
+	}
+	iterations.Iterar()
 }
