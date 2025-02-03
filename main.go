@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/ddessilvestri/godesde0/excercises"
+	"github.com/ddessilvestri/godesde0/keyboards"
 	"github.com/ddessilvestri/godesde0/variables"
 )
 
@@ -31,4 +33,12 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	}
+
+	exInt, exString, err := excercises.Excercise1("1500000")
+	fmt.Println("exInt", exInt)
+	fmt.Println("exInt", exString)
+	fmt.Println("err", err)
+
+	keyboards.InputNumbers()
+
 }
