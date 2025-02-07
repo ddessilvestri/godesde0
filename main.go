@@ -4,7 +4,8 @@ import (
 	// "fmt"
 	// "runtime"
 
-	"github.com/ddessilvestri/godesde0/functions"
+	// "github.com/ddessilvestri/godesde0/functions"
+	"github.com/ddessilvestri/godesde0/arreglos_slices"
 )
 
 func main() {
@@ -56,5 +57,7 @@ func main() {
 	// files.ReadFile2()
 	// functions.Calculates()
 
-	functions.Exponencial(2)
+	// functions.Exponencial(2)
+
+	arreglos_slices.MuestroArreglos()
 }
