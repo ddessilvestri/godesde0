@@ -54,5 +54,7 @@ func main() {
 	// files.SaveTable()
 	// files.AppendTableToFile()
 	// files.ReadFile2()
-	functions.Calculates()
+	// functions.Calculates()
+
+	functions.Exponencial(2)
 }
