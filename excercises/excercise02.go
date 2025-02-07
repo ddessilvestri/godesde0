@@ -10,9 +10,9 @@ import (
 var numero1 int
 var err error
 
-func Excercise2() {
+func Excercise2() string {
 	scanner := bufio.NewScanner(os.Stdin)
-
+	var text string
 	fmt.Println("Ingresar un numero")
 	if scanner.Scan() {
 		numero1, err = strconv.Atoi(scanner.Text())
@@ -24,10 +24,11 @@ func Excercise2() {
 		Excercise2()
 	} else {
 		for i := 1; i <= 10; i++ {
-			fmt.Println(numero1, " x ", i, " = ", numero1*i)
+			text += fmt.Sprintf("%d x %d = %d \n", numero1, i, numero1*i)
 		}
 
 	}
+	return text
 	// if scanner.Scan() {
 	// 	if err != nil{
 	// 		continue
