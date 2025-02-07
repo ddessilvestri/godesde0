@@ -4,10 +4,7 @@ import (
 	// "fmt"
 	// "runtime"
 
-	// "github.com/ddessilvestri/godesde0/excercises"
-	// "github.com/ddessilvestri/godesde0/iterations"
-	// "github.com/ddessilvestri/godesde0/variables"
-	"github.com/ddessilvestri/godesde0/files"
+	"github.com/ddessilvestri/godesde0/functions"
 )
 
 func main() {
@@ -56,5 +53,6 @@ func main() {
 
 	// files.SaveTable()
 	// files.AppendTableToFile()
-	files.ReadFile2()
+	// files.ReadFile2()
+	functions.Calculates()
 }
