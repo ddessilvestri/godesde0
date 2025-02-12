@@ -6,7 +6,10 @@ import ( // "fmt"
 	// "github.com/ddessilvestri/godesde0/arreglos_slices"
 
 	// "github.com/ddessilvestri/godesde0/mapas"
-	"github.com/ddessilvestri/godesde0/users"
+	// "github.com/ddessilvestri/godesde0/users"
+
+	e "github.com/ddessilvestri/godesde0/ejer_interfaces"
+	m "github.com/ddessilvestri/godesde0/modelos"
 )
 
 func main() {
@@ -64,5 +67,9 @@ func main() {
 	// arreglos_slices.MuestroSlice()
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapas()
-	users.AltaUsuario()
+	// users.AltaUsuario()
+	Pedro := new(m.Hombre)
+
+	e.HumanoRespirando(Pedro)
+
 }
