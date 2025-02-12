@@ -5,7 +5,8 @@ import (
 	// "runtime"
 
 	// "github.com/ddessilvestri/godesde0/functions"
-	"github.com/ddessilvestri/godesde0/arreglos_slices"
+	// "github.com/ddessilvestri/godesde0/arreglos_slices"
+	"github.com/ddessilvestri/godesde0/mapas"
 )
 
 func main() {
@@ -61,5 +62,6 @@ func main() {
 
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestroSlice()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
