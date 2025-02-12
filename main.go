@@ -1,12 +1,12 @@
 package main
 
-import (
-	// "fmt"
+import ( // "fmt"
 	// "runtime"
-
 	// "github.com/ddessilvestri/godesde0/functions"
 	// "github.com/ddessilvestri/godesde0/arreglos_slices"
-	"github.com/ddessilvestri/godesde0/mapas"
+
+	// "github.com/ddessilvestri/godesde0/mapas"
+	"github.com/ddessilvestri/godesde0/users"
 )
 
 func main() {
@@ -63,5 +63,6 @@ func main() {
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestroSlice()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	users.AltaUsuario()
 }
