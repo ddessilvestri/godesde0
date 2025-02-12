@@ -72,4 +72,7 @@ func main() {
 
 	e.HumanoRespirando(Pedro)
 
+	Maria := new(m.Mujer)
+	e.HumanoRespirando(Maria)
+
 }
