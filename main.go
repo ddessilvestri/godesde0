@@ -59,5 +59,7 @@ func main() {
 
 	// functions.Exponencial(2)
 
-	arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 }
